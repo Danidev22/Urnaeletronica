@@ -57,7 +57,10 @@ function atualizaInterFace() {
     } else {
         seuVotoPara.style.display = 'block';
         aviso.style.display = 'block';
-        descricao.innerHTML = '<div class="aviso--grande pisca">VOTO NULO</div>';
+        descricao.innerHTML = '<div class="aviso--grande pisca">VOTO NULO!</div>';
+        document.querySelector('.tela').innerHTML = '<div class="aviso--gigante pisca">VOTO NULO!</div>';
+            console.log(votos);
+            
     }
 
 }

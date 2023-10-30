@@ -5,6 +5,9 @@
 }
 
 body{
+    background-image: url(./imagess/poli.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -13,9 +16,10 @@ body{
 }
 
 .urna {
- background-color: #dbd5c9;
-padding: 30px;
-display: flex;
+ background-color: #b1afab;
+ margin: 20px;
+ padding: 20px;
+ display: flex;
 }
 
 .tela {
